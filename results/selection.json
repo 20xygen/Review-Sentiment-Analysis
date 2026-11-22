@@ -1,0 +1,27 @@
+{
+  "tfidf": {
+    "analyzer": "char",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "validation_macro_f1": 0.7361154040968371
+  },
+  "review_threshold": 0.55,
+  "rubert": {
+    "model": "cointegrated/rubert-tiny2",
+    "revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+    "checkpoint": "checkpoint-750",
+    "validation_macro_f1": 0.7408626941148168
+  },
+  "generator": {
+    "model": "qwen/qwen3.5-4b-free",
+    "settings": {
+      "temperature": 0.0,
+      "max_tokens": 64,
+      "reasoning_effort": "none"
+    },
+    "prompt": "zero-shot",
+    "validation_macro_f1": 0.6825396825396824
+  }
+}

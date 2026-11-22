@@ -1,0 +1,12 @@
+{
+  "id": "ru-76757",
+  "device": "cpu",
+  "num_threads": 8,
+  "max_length": 128,
+  "prediction": "positive",
+  "probabilities": {
+    "negative": 0.08039301633834839,
+    "neutral": 0.3521164357662201,
+    "positive": 0.5674904584884644
+  }
+}

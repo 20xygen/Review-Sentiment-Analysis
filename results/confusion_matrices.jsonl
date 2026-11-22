@@ -1,0 +1,6 @@
+{"model":"tfidf","true_label":"negative","negative":1961,"neutral":832,"positive":59}
+{"model":"tfidf","true_label":"neutral","negative":662,"neutral":1900,"positive":272}
+{"model":"tfidf","true_label":"positive","negative":80,"neutral":412,"positive":2400}
+{"model":"rubert","true_label":"negative","negative":2043,"neutral":755,"positive":54}
+{"model":"rubert","true_label":"neutral","negative":694,"neutral":1860,"positive":280}
+{"model":"rubert","true_label":"positive","negative":81,"neutral":427,"positive":2384}
